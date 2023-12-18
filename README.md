@@ -4,7 +4,10 @@ Quickie script to take screenshots of URLs for copyright submissions.
 
 ## Installation
 
-First install [Go](http://golang.org).
+Requirements:
+- [shot-scraper](https://github.com/simonw/shot-scraper)
+- pdftk
+- [Go](http://golang.org).
 
 If you just want to install the binary to your current directory and don't care about the source code, run
 
