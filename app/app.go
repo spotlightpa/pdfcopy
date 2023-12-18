@@ -49,13 +49,13 @@ func (app *appEnv) ParseArgs(args []string) error {
 		return nil
 	})
 	fl.Usage = func() {
-		fmt.Fprintf(fl.Output(), `copyrightpdfs - %s
+		fmt.Fprintf(fl.Output(), `pdfcopy - %s
 
 Download stuff and screenshot it
 
 Usage:
 
-	copyrightpdfs [options]
+	pdfcopy [options]
 
 Options:
 `, versioninfo.Version)
